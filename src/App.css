@@ -1,0 +1,357 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*nav*/
+.nav {
+  height: 80px;
+  width: 100%;
+  background: linear-gradient(90deg, #360033 0%, #0b8793 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.i-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.name {
+  color: white;
+  margin-top: 15px;
+}
+.red-span {
+  color: red;
+}
+.img {
+  height: 70px;
+  width: 70px;
+  margin-top: 5px;
+}
+/* component main*/
+.main {
+  height: auto;
+  width: 100%;
+  margin-top: 10px;
+  height: 350px;
+  width: 100%;
+  background: linear-gradient(90deg, #59cde9 0%, #0a2a88 100%);
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+
+.header {
+  text-align: center;
+  color: white;
+  font-family: "Impact";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 78px;
+  margin-top: 20px;
+}
+.paragraf {
+  text-align: center;
+  color: white;
+  font-family: "Lemonada";
+  font-style: normal;
+  font-weight: 380;
+  font-size: 20px;
+  line-height: 40px;
+}
+.de {
+  height: 20px;
+}
+/*componenet searchbaar
+*/
+.searchbaar {
+  width: 100%;
+  height: auto;
+}
+.itrems {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+.div_input {
+  width: 1120px;
+  height: 80px;
+  background: #fefefe;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.inpute {
+  width: 1000px;
+  height: 70px;
+  margin-top: 10px;
+  margin-left: 50px;
+  border: none;
+  background: transparent;
+}
+.inpute:focus {
+  outline: none;
+}
+
+.btn {
+  width: 201px;
+  height: 80px;
+  margin-left: 10px;
+  background: linear-gradient(90deg, #00f5a0 0%, #00d9f5 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  border: none;
+}
+.btn:hover {
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/* componenet result*/
+.n {
+  text-align: center;
+  font-family: "Impact";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 49px;
+}
+.grid {
+  height: auto;
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  margin-top: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+  gap: 12px;
+}
+.item-Result {
+  width: 693px;
+  height: 103px;
+  background: linear-gradient(90deg, #00f5a0 0%, #00d9f5 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.url-Link {
+  font-family: "Imbue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  margin-left: 30px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.copy {
+  width: 129px;
+  height: 72px;
+  background: #fcf9f9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  border: none;
+  margin-top: 15px;
+}
+.fa-clone {
+  font-size: 30px;
+}
+.copy:hover {
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.result-text {
+  text-align: center;
+  font-family: "IM FELL DW Pica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+}
+/*QR code*/
+.qr {
+  width: 440px;
+  height: 400px;
+  margin-top: 30px;
+  display: grid;
+  justify-content: center;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.h1_q {
+  text-align: center;
+}
+.qr_img {
+  height: 300px;
+  width: 300px;
+  margin-left: 10px;
+}
+
+/*componenet Feature*/
+
+.Feature {
+  height: auto;
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 12px;
+}
+.card-fea {
+  margin-top: 100px;
+  width: 302px;
+  height: 350px;
+  background: #fff8f8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.icon {
+  width: 100px;
+  height: 100px;
+  margin-left: 100px;
+  border-radius: 100%;
+  background: #fffafa;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.card-text {
+  text-align: center;
+  margin-top: 20px;
+}
+.fa-thumbs-up,
+.fa-link,
+.fa-shield-halved,
+.fa-computer,
+.fa-hand,
+.fa-mobile-screen-button {
+  font-size: 50px;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+.fa-mobile-screen-button {
+  margin-left: 32px;
+}
+.para {
+  text-align: center;
+  margin-top: 30px;
+}
+/*footer*/
+
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 107px;
+  margin-top: 50px;
+  background: linear-gradient(90deg, #4776e6 0%, #8e54e9 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.f-para {
+  position: relative;
+  text-align: center;
+  color: white;
+  top: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+/*media query */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .div_input {
+    width: 250px;
+    height: 60px;
+  }
+  .inpute {
+    width: 250px;
+    height: 60px;
+    margin-top: 2px;
+    margin-left: 0px;
+  }
+  .btn {
+    width: 101px;
+    height: 60px;
+    font-size: 40px;
+  }
+  .item-Result {
+    width: 353px;
+    height: 70px;
+  }
+
+  .copy {
+    display: none;
+  }
+  .result-text {
+    font-size: 20px;
+  }
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(50px, 1fr));
+  }
+  .url-Link {
+    font-size: 26px;
+    margin-top: 12px;
+  }
+  .qr {
+    width: 340px;
+    height: 300px;
+  }
+  .qr_img {
+    height: 200px;
+    width: 200px;
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  .header {
+    font-size: 44px;
+    margin-top: -20px;
+  }
+  .f-para {
+    margin-top: -20px;
+  }
+  .Short {
+    font-family: "Lemonada";
+    font-style: normal;
+    font-weight: 380;
+    font-size: 30px;
+    margin-top: -10px;
+    line-height: 80px;
+  }
+}
+.error {
+  text-align: center;
+  color: rgb(148, 21, 21);
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: "Lemonada";
+  font-style: normal;
+  font-weight: 380;
+  font-size: 30px;
+  margin-top: -10px;
+  line-height: 80px;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .div_input {
+    width: 520px;
+    height: 80px;
+  }
+  .inpute {
+    width: 500px;
+    height: 70px;
+    margin-left: 10px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .item-Result {
+    width: 640px;
+  }
+}
+
+/* lodding */
+.lodding{
+  text-align: center;
+}
